@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "npx tsc ./one/code/one.ts",
+    "start": "npx http-server ./one/code/",
+    "refresh": "npx tsc ./one/code/one.ts && npx http-server ./one/code/"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.13",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "requirejs": "^2.3.6"
+  }
+}
